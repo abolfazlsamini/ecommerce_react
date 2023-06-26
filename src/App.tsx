@@ -3,7 +3,7 @@ function App() {
   return (
     <div className="App">
 
-          Learn React
+          WE're online baby les goooooo
 
     </div>
   );
