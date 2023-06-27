@@ -1,11 +1,13 @@
+import Navbar from "./router/Navbar";
+import NavRoutes from "./router/routes";
 
 function App() {
   return (
-    <div className="App">
 
-          WE're online baby les goooooo
+      <div className="App">
+      <NavRoutes/>
+      </div>
 
-    </div>
   );
 }
 

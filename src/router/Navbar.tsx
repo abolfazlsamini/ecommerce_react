@@ -1,5 +1,7 @@
 import { Outlet, NavLink } from "react-router-dom";
 import "../styles/Navbar.css";
+const logo_active = require('../static/logo_active.png');
+const logo_notactive = require('../static/logo_notactive.png');
 const Navbar = () => {
   return (
     <>
@@ -10,8 +12,8 @@ const Navbar = () => {
               {({ isActive }) => (
                 <>
                   <img
-                    src={isActive ? "../logo_active.png" : "../logo.png"}
-                    alt="../logo.png"
+                    src={isActive ? logo_active : logo_notactive}
+                    alt={logo_notactive}
                   />
                 </>
               )}
