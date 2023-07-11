@@ -1,9 +1,7 @@
 body {
-  background-image: linear-gradient(
-    to right,
-    rgba(27, 27, 27, 0.24),
-    rgba(182, 59, 59, 0.527)
-  );
+  background-image: linear-gradient(to right,
+      rgba(27, 27, 27, 0.24),
+      rgba(182, 59, 59, 0.527));
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: small;
   margin: 0px;

@@ -1,7 +1,9 @@
 import { Outlet, NavLink } from "react-router-dom";
 import "../styles/Navbar.css";
+import "../styles/button.css"
 const logo_active = require('../static/logo_active.png');
 const logo_notactive = require('../static/logo_notactive.png');
+
 const Navbar = () => {
   return (
     <>
@@ -22,11 +24,20 @@ const Navbar = () => {
           <li>
             <NavLink
               to="/profile"
-              className={(navData) =>
-                navData.isActive ? "active_link" : "link"
-              }
             >
-              Profile
+              {({ isActive }) => (
+                <button
+                  className={isActive ? "glowbtn_active" : "glowbtn"
+                  }
+
+                >
+
+                  Profile
+                </button>
+
+              )}
+              {/* <button className="glowbtn" >click</button> */}
+
             </NavLink>
           </li>
         </ul>

@@ -1,9 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import NavRoutes from './router/routes';
-import { BrowserRouter,  Routes } from 'react-router-dom';
 import { HashRouter as Router } from "react-router-dom";
+import "./styles/index.css"
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );

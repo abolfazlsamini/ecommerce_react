@@ -1,0 +1,18 @@
+.details_product_view {
+    background-color: #696b617e;
+    padding: 5px;
+    margin: 0px;
+    color: #FFFFFF;
+}
+
+.product_img_product_view {
+    width: 280px;
+    margin-right: 5px;
+    float: left;
+}
+
+.product_img_product_view:hover {
+    width: 280px;
+    margin-right: 5px;
+    float: left;
+}
